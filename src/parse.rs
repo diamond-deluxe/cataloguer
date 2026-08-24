@@ -4,6 +4,8 @@ use pest_derive::Parser;
 use regex::Regex;
 use thiserror::Error;
 
+use crate::parse::XKeyParseError::NotAnXKey;
+
 #[derive(Parser)]
 #[grammar = "query.pest"] // relative to src
 struct QueryParser;
@@ -16,6 +18,7 @@ pub enum QueryNode {
     TextFilter(TextFilter),
     NumFilter(NumFilter),
     IsFilter(IsFilter),
+    XFilter(XFilter),
 }
 
 #[derive(Debug)]
@@ -106,6 +109,41 @@ pub struct NumFilter {
     pub key: NumericKey,
     pub value: i32,
     pub comparator: NumericComparator,
+}
+
+// Numeric keys that are allowed to have a value of "X".
+// (Indicated by `null` in cards.json.)
+#[derive(Debug)]
+pub enum XKey {
+    Advancement,
+    Cost,
+    Strength,
+}
+impl TryFrom<&str> for XKey {
+    type Error = XKeyParseError;
+
+    fn try_from(value: &str) -> Result<Self, Self::Error> {
+        let key = NumericKey::try_from(value)?;
+        match key {
+            NumericKey::Advancement => Ok(Self::Advancement),
+            NumericKey::Cost => Ok(Self::Cost),
+            NumericKey::Strength => Ok(Self::Strength),
+            _ => Err(NotAnXKey),
+        }
+    }
+}
+
+#[derive(Error, Debug)]
+pub enum XKeyParseError {
+    #[error("{0}")]
+    Parse(#[from] ParseError),
+    #[error("Not an X key")]
+    NotAnXKey,
+}
+
+#[derive(Debug)]
+pub struct XFilter {
+    pub key: XKey,
 }
 
 #[derive(Debug)]
@@ -590,6 +628,13 @@ fn parse_filter(
                 settings.update(settings_key, text_value.value())?;
 
                 return Ok(None);
+            }
+
+            // Special case: first check if we're an X key.
+            if text_value.value().to_lowercase() == "x" {
+                if let Ok(x_key) = XKey::try_from(key_str) {
+                    return Ok(Some(QueryNode::XFilter(XFilter { key: x_key })));
+                }
             }
 
             // Special case: first check if it's actually a NumericFilter using ":" as a comparator.
