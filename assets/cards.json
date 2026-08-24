@@ -44803,6 +44803,7 @@
             "img_type": "nro",
             "set": "ele"
         }],
+        "strength": 3,
         "title": "Lamplighter",
         "stripped_title": "Lamplighter",
         "stripped_text": "When an agenda is scored or stolen from this server or its root, trash this ice. subroutine Give the Runner 1 tag unless they pay 3 [credit]. [subroutine] End the run if the Runner is tagged.",
