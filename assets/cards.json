@@ -41828,9 +41828,9 @@
                 "set": "tai"
             }
         ],
-        "stripped_text": "[interrupt] -> Remove 1 tag: End the run. Use this ability only during a run against another server.",
+        "stripped_text": "Remove 1 tag: End the run. Use this ability only during a run against another server.",
         "stripped_title": "B-1001",
-        "text": "[interrupt] -> <strong>Remove 1 tag:</strong> End the run. Use this ability only during a run against another server.",
+        "text": "<strong>Remove 1 tag:</strong> End the run. Use this ability only during a run against another server.",
         "title": "B-1001",
         "trash_cost": 3,
         "type_code": "asset",
