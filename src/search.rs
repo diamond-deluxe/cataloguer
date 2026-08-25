@@ -793,6 +793,23 @@ fn search_impl<'a>(
                     })
                     .copied()
                     .collect(),
+                NumericKey::NumSubroutines => card_pool
+                    .iter()
+                    .filter(|x| {
+                        num_filter.comparator.as_operator(
+                            x.card.text.as_ref().map_or_else(
+                                || 0,
+                                |text| {
+                                    text.split("\n")
+                                        .filter(|line| line.starts_with("[subroutine]"))
+                                        .count()
+                                },
+                            ) as i32,
+                            num_filter.value,
+                        ) && x.card.type_code == "ice"
+                    })
+                    .copied()
+                    .collect(),
                 NumericKey::Points => card_pool
                     .iter()
                     .filter(|x| {
@@ -896,7 +913,12 @@ fn search_impl<'a>(
                 XKey::Strength => card_pool
                     .iter()
                     .filter(|x| {
-                        x.card.strength.is_none() && (x.card.type_code == "ice" || x.card.subtypes.as_ref().is_some_and(|s| s.contains("icebreaker")))
+                        x.card.strength.is_none()
+                            && (x.card.type_code == "ice"
+                                || x.card
+                                    .subtypes
+                                    .as_ref()
+                                    .is_some_and(|s| s.contains("icebreaker")))
                     })
                     .copied()
                     .collect(),
