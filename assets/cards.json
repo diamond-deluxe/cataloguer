@@ -1833,7 +1833,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -2271,7 +2270,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -2659,7 +2657,6 @@
         "agenda_points": 2,
         "eternal_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -2681,7 +2678,6 @@
         "agenda_points": 1,
         "eternal_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Imaginary FS Pte Ltd",
@@ -3077,7 +3073,6 @@
         "advancement_cost": 2,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Expansion – Liability",
         "printings": [
             {
@@ -3120,7 +3115,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security – Liability",
         "printings": [
             {
@@ -4008,7 +4002,6 @@
         "advancement_cost": 6,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -4088,7 +4081,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -4137,7 +4129,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -4181,7 +4172,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -4559,7 +4549,6 @@
         "advancement_cost": 5,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Ambush",
         "printings": [
             {
@@ -5045,7 +5034,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -5714,7 +5702,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "weyland-consortium",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Mitchell Malloy",
@@ -6741,7 +6728,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -6975,7 +6961,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -6996,7 +6981,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -7017,7 +7001,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -7038,7 +7021,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -8369,7 +8351,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security – Liability",
         "printings": [
             {
@@ -8505,7 +8486,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -8571,7 +8551,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Expansion – Liability",
         "printings": [
             {
@@ -8901,7 +8880,6 @@
         "advancement_cost": 2,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Initiative – Liability",
         "printings": [
             {
@@ -9008,7 +8986,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -9421,7 +9398,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -9902,7 +9878,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Ambush",
         "printings": [
             {
@@ -10404,7 +10379,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -10489,7 +10463,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security – Liability",
         "printings": [
             {
@@ -11120,7 +11093,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -11142,7 +11114,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -11169,7 +11140,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Initiative - Psi",
         "printings": [
             {
@@ -12235,7 +12205,6 @@
         "advancement_cost": 2,
         "agenda_points": 0,
         "faction": "haas-bioroid",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Adrian Dadich",
@@ -12753,7 +12722,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -13618,7 +13586,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -14017,7 +13984,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -14111,7 +14077,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -14176,7 +14141,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -14497,7 +14461,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Emilio Rodr\u00edguez",
@@ -15015,7 +14978,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -15036,7 +14998,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -15057,7 +15018,6 @@
         "advancement_cost": 9,
         "agenda_points": 6,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -15079,7 +15039,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -16373,7 +16332,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -16784,7 +16742,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -17193,7 +17150,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -17346,7 +17302,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Public - Initiative",
         "printings": [
             {
@@ -17779,7 +17734,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Initiative - Public",
         "printings": [
             {
@@ -18131,7 +18085,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Sensie",
         "printings": [
             {
@@ -18152,7 +18105,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Sensie",
         "printings": [
             {
@@ -18242,7 +18194,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Initiative - Public",
         "printings": [
             {
@@ -18533,7 +18484,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -18808,7 +18758,6 @@
         "advancement_cost": 2,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Hannah Christenson",
@@ -18829,7 +18778,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -18851,7 +18799,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -18873,7 +18820,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -20129,7 +20075,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -20593,7 +20538,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -20636,7 +20580,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Public",
         "printings": [
             {
@@ -20909,7 +20852,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -21299,7 +21241,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -21765,7 +21706,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Initiative - Psi",
         "printings": [
             {
@@ -21808,7 +21748,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -22129,7 +22068,6 @@
         "advancement_cost": 4,
         "agenda_points": 3,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -22696,7 +22634,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -23424,7 +23361,6 @@
         "advancement_cost": 2,
         "agenda_points": 0,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -24671,7 +24607,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -24757,7 +24692,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -25072,7 +25006,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "NEXT",
         "printings": [
             {
@@ -26353,7 +26286,6 @@
         "agenda_points": 3,
         "eternal_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Ambush",
         "printings": [
             {
@@ -26415,7 +26347,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -26437,7 +26368,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -26479,7 +26409,6 @@
         "advancement_cost": 5,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Mark Molnar",
@@ -26500,7 +26429,6 @@
         "advancement_cost": 2,
         "agenda_points": 0,
         "faction": "weyland-consortium",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Ed Mattinian",
@@ -26822,7 +26750,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -26844,7 +26771,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -27194,7 +27120,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Mark Molnar",
@@ -27298,7 +27223,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -28078,7 +28002,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -28100,7 +28023,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -28121,7 +28043,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -28387,7 +28308,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -28408,7 +28328,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Expansion – Liability",
         "printings": [
             {
@@ -28430,7 +28349,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "weyland-consortium",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Del Borovic",
@@ -29504,7 +29422,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -29990,7 +29907,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -30447,7 +30363,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -30490,7 +30405,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -30934,7 +30848,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Public",
         "printings": [
             {
@@ -31207,7 +31120,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -31271,7 +31183,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research - Security",
         "printings": [
             {
@@ -31730,7 +31641,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -32382,7 +32292,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -32551,7 +32460,6 @@
         "advancement_cost": 6,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -32720,7 +32628,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -32890,7 +32797,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security – Liability",
         "printings": [
             {
@@ -33948,7 +33854,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -34120,7 +34025,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -34141,7 +34045,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Ambush",
         "printings": [
             {
@@ -34270,7 +34173,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -34441,7 +34343,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Krembler",
@@ -34462,7 +34363,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -35292,7 +35192,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Krembler",
@@ -35321,7 +35220,6 @@
         "agenda_points": 3,
         "eternal_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -35495,7 +35393,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "printings": [
             {
                 "artist": "N. Hopkins",
@@ -35672,7 +35569,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -35828,7 +35724,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -36743,7 +36638,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -36913,7 +36807,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -37086,7 +36979,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Ambush",
         "printings": [
             {
@@ -37259,7 +37151,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -38283,7 +38174,6 @@
         "advancement_cost": 2,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -38305,7 +38195,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -38465,7 +38354,6 @@
         "advancement_cost": null,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -38487,7 +38375,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -38690,7 +38577,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -38894,7 +38780,6 @@
         "advancement_cost": 3,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -39720,7 +39605,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -39915,7 +39799,6 @@
         "advancement_cost": 2,
         "agenda_points": 1,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -40067,7 +39950,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -40089,7 +39971,6 @@
         "advancement_cost": 2,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -40240,7 +40121,6 @@
         "advancement_cost": 6,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -40262,7 +40142,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Expansion",
         "printings": [
             {
@@ -41079,7 +40958,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -41101,7 +40979,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -41275,7 +41152,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Ambush - Security",
         "printings": [
             {
@@ -41472,7 +41348,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -41646,7 +41521,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Expansion - Expendable",
         "printings": [
             {
@@ -42494,7 +42368,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "haas-bioroid",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -42670,7 +42543,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Psi - Security",
         "printings": [
             {
@@ -42692,7 +42564,6 @@
         "advancement_cost": 5,
         "agenda_points": 2,
         "faction": "jinteki",
-        "influence": 0,
         "subtypes": "Security",
         "printings": [
             {
@@ -42844,7 +42715,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Research",
         "printings": [
             {
@@ -42866,7 +42736,6 @@
         "advancement_cost": 4,
         "agenda_points": 2,
         "faction": "nbn",
-        "influence": 0,
         "subtypes": "Initiative",
         "printings": [
             {
@@ -43040,7 +42909,6 @@
         "advancement_cost": 3,
         "agenda_points": 1,
         "faction": "weyland-consortium",
-        "influence": 0,
         "subtypes": "Expansion - Expendable",
         "printings": [
             {
@@ -43062,7 +42930,6 @@
         "advancement_cost": 5,
         "agenda_points": 3,
         "faction": "weyland-consortium",
-        "influence": 0,
         "printings": [
             {
                 "artist": "Emilio Rodr\u00edguez",
@@ -45162,7 +45029,6 @@
         "type_code": "agenda",
         "subtypes": "Liability",
         "faction": "nbn",
-        "influence": 0,
         "advancement_cost": 4,
         "agenda_points": 2,
         "printings": [{
@@ -45813,7 +45679,6 @@
         "type_code": "agenda",
         "subtypes": "Security",
         "faction": "jinteki",
-        "influence": 0,
         "advancement_cost": 4,
         "agenda_points": 2,
         "printings": [{
@@ -46061,7 +45926,6 @@
         "type_code": "agenda",
         "subtypes": "Public",
         "faction": "weyland-consortium",
-        "influence": 0,
         "advancement_cost": 4,
         "agenda_points": 2,
         "printings": [{
