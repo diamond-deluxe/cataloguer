@@ -1,6 +1,6 @@
 use crate::parse::{
     parse_query, IsFilterType, NumericKey, ParseError, PrintingPreference, QueryNode,
-    SearchDirection, SearchOrder, SearchSettings, TextKey, TextValue, UniqueBy,
+    SearchDirection, SearchOrder, SearchSettings, TextKey, TextValue, UniqueBy, XKey,
 };
 use crate::structs::{Backend, Card, Printing, Set};
 use rand::seq::SliceRandom;
@@ -48,7 +48,7 @@ pub fn type_order(t: &str) -> usize {
         "asset",
         "ice",
         "operation",
-        "upgrade"
+        "upgrade",
     ];
     let answer = order.iter().position(|&r| r == t);
     if answer.is_some() {
@@ -201,15 +201,23 @@ pub(crate) fn do_search<'a>(
                 .into_iter()
                 .filter(|sp| sp.card.cost.is_some())
                 .collect();
-            results.sort_by_key(|sp| (sp.card.cost, type_order(&sp.card.type_code), &sp.card.subtypes))
+            results.sort_by_key(|sp| {
+                (
+                    sp.card.cost,
+                    type_order(&sp.card.type_code),
+                    &sp.card.subtypes,
+                )
+            })
         }
-        SearchOrder::Type => results.sort_by_key(|sp| (type_order(&sp.card.type_code), &sp.card.subtypes)),
+        SearchOrder::Type => {
+            results.sort_by_key(|sp| (type_order(&sp.card.type_code), &sp.card.subtypes))
+        }
         SearchOrder::Faction => results.sort_by_key(|sp| {
             (
                 faction_order(&sp.card.faction),
                 type_order(&sp.card.type_code),
                 &sp.card.subtypes,
-                &sp.card.stripped_title
+                &sp.card.stripped_title,
             )
         }),
         SearchOrder::Influence => {
@@ -244,7 +252,13 @@ pub(crate) fn do_search<'a>(
                 .into_iter()
                 .filter(|sp| sp.card.strength.is_some())
                 .collect();
-            results.sort_by_key(|sp| (sp.card.strength, type_order(&sp.card.type_code), &sp.card.subtypes))
+            results.sort_by_key(|sp| {
+                (
+                    sp.card.strength,
+                    type_order(&sp.card.type_code),
+                    &sp.card.subtypes,
+                )
+            })
         }
         SearchOrder::Memory => {
             results = results
@@ -596,13 +610,11 @@ fn search_impl<'a>(
                         ));
                     };
                     search_impl(node, backend, card_pool, depth + 1)?
-                },
-                TextKey::Side => {
-                    match text_filter.value.value() {
-                        "runner" | "r" => inner_search("is:runner", backend, card_pool, depth+1)?,
-                        "corp" | "c" => inner_search("is:corp", backend, card_pool, depth+1)?,
-                        _ => return Err(SearchError::QueryError("not a known side".to_owned()))
-                    }
+                }
+                TextKey::Side => match text_filter.value.value() {
+                    "runner" | "r" => inner_search("is:runner", backend, card_pool, depth + 1)?,
+                    "corp" | "c" => inner_search("is:corp", backend, card_pool, depth + 1)?,
+                    _ => return Err(SearchError::QueryError("not a known side".to_owned())),
                 },
                 TextKey::Subtype => {
                     //this is garbage code, I plan to remove this when piggy comes out and everyone
@@ -672,10 +684,11 @@ fn search_impl<'a>(
                     })
                     .copied()
                     .collect(),
-                NumericKey::NROPoints => {//these are only imported as needed to minimize load on general cataloguer searches, might lower performance for this search though
+                NumericKey::NROPoints => {
+                    //these are only imported as needed to minimize load on general cataloguer searches, might lower performance for this search though
                     let string = "assets/nrop.json";
                     let ranks = serde_json::from_str::<Map<String, Value>>(
-                         &std::fs::read_to_string(string).unwrap().to_lowercase(),
+                        &std::fs::read_to_string(string).unwrap().to_lowercase(),
                     )
                     .unwrap();
                     card_pool
@@ -860,6 +873,35 @@ fn search_impl<'a>(
                 IsFilterType::Wet => inner_search("z:pawnshop", backend, card_pool, depth+1)?,
                 IsFilterType::Creepy => inner_search("tob>0 -z:pawnshop", backend, card_pool, depth+1)?,
                 IsFilterType::Editorial => inner_search("s:\"black ops\" or s:\"gray ops\" or s:liability", backend, card_pool, depth+1)?
+            };
+
+            Ok(results)
+        }
+        QueryNode::XFilter(x_filter) => {
+            let results = match x_filter.key {
+                XKey::Advancement => card_pool
+                    .iter()
+                    .filter(|x| x.card.advancement_cost.is_none() && x.card.type_code == "agenda")
+                    .copied()
+                    .collect(),
+                XKey::Cost => card_pool
+                    .iter()
+                    .filter(|x| {
+                        x.card.cost.is_none()
+                            && x.card.type_code != "identity"
+                            && x.card.type_code != "agenda"
+                    })
+                    .copied()
+                    .collect(),
+                XKey::Strength => {
+                    // This will require changes to cards.json; currently it's not
+                    // possible to distinguish between programs with strength X
+                    // (only Darwin atm) and programs without a strength value (i.e.
+                    // every non-icebreaker).
+                    return Err(SearchError::NotYetImplemented(
+                        "filtering strength=x".to_string(),
+                    ));
+                }
             };
 
             Ok(results)

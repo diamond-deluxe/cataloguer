@@ -4,7 +4,7 @@
         "influence_limit": null,
         "subtypes": "Megacorp",
         "minimum_deck_size": 30,
-        "nearprint": "The Syndicate: Profit over Principle", 
+        "nearprint": "The Syndicate: Profit over Principle",
         "printings": [
             {
                 "artist": "Sawomir Maniak",
@@ -41828,9 +41828,9 @@
                 "set": "tai"
             }
         ],
-        "stripped_text": "[interrupt] -> Remove 1 tag: End the run. Use this ability only during a run against another server.",
+        "stripped_text": "Remove 1 tag: End the run. Use this ability only during a run against another server.",
         "stripped_title": "B-1001",
-        "text": "[interrupt] -> <strong>Remove 1 tag:</strong> End the run. Use this ability only during a run against another server.",
+        "text": "<strong>Remove 1 tag:</strong> End the run. Use this ability only during a run against another server.",
         "title": "B-1001",
         "trash_cost": 3,
         "type_code": "asset",
@@ -43389,7 +43389,7 @@
         }],
         "stripped_text": "2 recurring-credit (When you rez this upgrade and before your turn begins, refill to 2 hosted credits.) You can spend hosted credits to rez assets in the root of this server and ice protecting this server. Persistent -> The trash cost of each asset in the root of this server is increased by 2credit. Limit 1 region per server.",
         "stripped_title": "Mahkota Langit Grid",
-        "text": "2[recurring-credit] <i>(When you install this card and before your turn begins, refill to 2 hosted credits.)</i>\nYou can spend hosted credits to rez assets in the root of this server and ice protecting this server.\nPersistent -> The trash cost of each asset in the root of this server is increased by 2[credit].\nLimit 1 <b>region</b> per server.", 
+        "text": "2[recurring-credit] <i>(When you install this card and before your turn begins, refill to 2 hosted credits.)</i>\nYou can spend hosted credits to rez assets in the root of this server and ice protecting this server.\nPersistent -> The trash cost of each asset in the root of this server is increased by 2[credit].\nLimit 1 <b>region</b> per server.",
         "title": "Mahkota Langit Grid",
         "type_code": "upgrade",
         "trash_cost": 2,
@@ -43498,7 +43498,7 @@
         "subtypes": "Unsubstantiated",
         "printings": [{
             "artist": "Marlon Ruiz",
-            "flavour": "Action at a distance.", 
+            "flavour": "Action at a distance.",
             "code": "35069",
             "img_type": "nro",
             "set": "ele"
@@ -44803,6 +44803,7 @@
             "img_type": "nro",
             "set": "ele"
         }],
+        "strength": 3,
         "title": "Lamplighter",
         "stripped_title": "Lamplighter",
         "stripped_text": "When an agenda is scored or stolen from this server or its root, trash this ice. subroutine Give the Runner 1 tag unless they pay 3 [credit]. [subroutine] End the run if the Runner is tagged.",
@@ -45700,7 +45701,7 @@
         "type_code": "upgrade",
         "faction": "haas-bioroid",
         "influence": 2,
-        "cost": 0,
+        "cost": 1,
         "trash_cost": 3,
         "printings": [{
             "artist": "Oliver Morit",
@@ -45990,7 +45991,7 @@
             "code": "36030",
             "img_type": "nro",
             "set": "vp",
-            "flavour": "He bade write runes on the shield before the shining goddess, on Sleipnir’s teeth, and the straps of the sledge." 
+            "flavour": "He bade write runes on the shield before the shining goddess, on Sleipnir’s teeth, and the straps of the sledge."
         }],
         "title": "sleipnir",
         "stripped_title": "sleipnir",
