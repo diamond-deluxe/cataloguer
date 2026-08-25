@@ -893,15 +893,13 @@ fn search_impl<'a>(
                     })
                     .copied()
                     .collect(),
-                XKey::Strength => {
-                    // This will require changes to cards.json; currently it's not
-                    // possible to distinguish between programs with strength X
-                    // (only Darwin atm) and programs without a strength value (i.e.
-                    // every non-icebreaker).
-                    return Err(SearchError::NotYetImplemented(
-                        "filtering strength=x".to_string(),
-                    ));
-                }
+                XKey::Strength => card_pool
+                    .iter()
+                    .filter(|x| {
+                        x.card.strength.is_none() && (x.card.type_code == "ice" || x.card.subtypes.as_ref().is_some_and(|s| s.contains("icebreaker")))
+                    })
+                    .copied()
+                    .collect(),
             };
 
             Ok(results)
